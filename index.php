@@ -1,6 +1,8 @@
 <?php
 
-	$profileurl = "http://graph.facebook.com/http://www.myreviewreporter.com/?page=home";
+    // this is test git 	
+    $profileurl = "http://graph.facebook.com/http://www.myreviewreporter.com/?page=home";
+	
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, $profileurl);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
